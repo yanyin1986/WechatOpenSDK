@@ -27,7 +27,9 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: install pod
-      run: bundle exec install cocoapods
+      run: |
+        bundle config path vendor/bundle
+        bundle install
     - name: Send greeting
       run: check_source.sh
     - name: Create Pull Request
