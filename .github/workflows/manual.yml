@@ -25,7 +25,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
+    - uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
+      with:
+        bundler-cache: true
+        ruby-version: '3.0'
     - name: install pod
       run: |
         bundle config path vendor/bundle
