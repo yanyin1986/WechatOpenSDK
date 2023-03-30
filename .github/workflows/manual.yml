@@ -36,7 +36,7 @@ jobs:
         bundle install
     - name: Send greeting
       run: |
-        SOURCE=$(pod search --simple WechatOpenSDK-XCFramework | grep Source: | awk -F " " '{print $3}')
+        SOURCE=`$(pod search --simple WechatOpenSDK-XCFramework | grep Source: | awk -F " " '{print $3}')`
         FILE_NAME='xcframework.zip'
 
         echo "Downloading $FILE_NAME"
