@@ -8,3 +8,5 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 WechatOpenSDK.xcframework.zip
+xcframework.zip
+.source_cache
