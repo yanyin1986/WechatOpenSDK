@@ -21,10 +21,10 @@ jobs:
         pod repo add-cdn source 'https://cdn.cocoapods.org/' --verbose
         pod repo update --verbose
         pod search --simple WechatOpenSDK --verbose
-    - name: Pod search
-      run: pod search --regex WechatOpenSDK --no-ansi --verbose --simple
-    - name: Pod search and print
-      run: pod search --regex WechatOpenSDK --no-ansi --stats --simple | grep Source | awk -F " " '{print $3}'
+    - name: ls
+      run: ls -al 
+    - name: Run
+      run: ./check_source.sh 
     - name: Send greeting
       run: |
         SOURCE=`$(pod search --regex WechatOpenSDK --no-ansi --stats --simple |' grep Source: | awk -F " " '{print $3}')`
