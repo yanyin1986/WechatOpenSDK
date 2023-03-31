@@ -17,12 +17,12 @@ jobs:
         bundle config path vendor/bundle
         bundle install
     - name: Pod search
-      run: pod search --simple WechatOpenSDK-XCFramework
+      run: pod search --simple 'WechatOpenSDK-XCFramework'
     - name: Pod search and print
-      run: pod search --simple WechatOpenSDK-XCFramework | grep Source | awk -F " " '{print $3}'
+      run: pod search --simple 'WechatOpenSDK-XCFramework' | grep Source | awk -F " " '{print $3}'
     - name: Send greeting
       run: |
-        SOURCE=`$(pod search --simple WechatOpenSDK-XCFramework | grep Source: | awk -F " " '{print $3}')`
+        SOURCE=`$(pod search --simple 'WechatOpenSDK-XCFramework |' grep Source: | awk -F " " '{print $3}')`
         echo $SOURCE
         FILE_NAME='xcframework.zip'
 
