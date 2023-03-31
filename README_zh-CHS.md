@@ -1,6 +1,6 @@
 # WechatOpenSDK
 
-[English](README.md) | [简体中文](README_zh-CHS.md) | [繁体中文](README_zh-CHT.md)
+[English](README.md) | 简体中文 | [繁体中文](README_zh-CHT.md)
 
 ## 目的
 
