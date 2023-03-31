@@ -4,8 +4,8 @@
 
 ## 目的
 
-- 包装 `WeChatOpenSDK-XCFramework.xcframework` 让其可以简单得用于 `Swift Package Manager`
-- 保持与Cocoapods的版本相同
+- 包裝 `WeChatOpenSDK-XCFramework.xcframework` 讓其可以簡單得用於 `Swift Package Manager`
+- 保持與Cocoapods的版本相同
 
 ## 安装
 ### Swift Package Manager (GUI)
