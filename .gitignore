@@ -10,3 +10,6 @@ DerivedData/
 WechatOpenSDK.xcframework.zip
 xcframework.zip
 .source_cache
+.bundle/
+Gemfile.lock
+vendor/
