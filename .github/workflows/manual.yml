@@ -16,6 +16,8 @@ jobs:
       run: |
         bundle config path vendor/bundle
         bundle install
+    - name: Pod repo update
+      run: pod repo update
     - name: Pod search
       run: pod search --regex WechatOpenSDK --no-ansi --verbose --simple
     - name: Pod search and print
