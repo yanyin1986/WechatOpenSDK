@@ -26,3 +26,5 @@ jobs:
       run: ./check_source.sh
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4.2.4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
