@@ -18,6 +18,7 @@ jobs:
         bundle install
     - name: Pod repo update
       run: |
+        pod repo add-cdn source 'https://cdn.cocoapods.org/' --verbose
         pod repo update --verbose
         pod search --simple WechatOpenSDK --verbose
     - name: Pod search
