@@ -4,7 +4,7 @@ English | [简体中文](README_zh-CHS.md) | [繁体中文](README_zh-CHT.md)
 
 ## What's this?
 
-- Wrap `WeChatOpenSDK-XCFramework.xcframework` and make it easy to use with `Swift Package Manager`.
+- Wrap `WeChatOpenSDK.xcframework` and make it easy to use with `Swift Package Manager`.
 - Mirror and automatically keep the version in sync with CocoaPods.
 
 ## Installation
@@ -25,9 +25,9 @@ English | [简体中文](README_zh-CHS.md) | [繁体中文](README_zh-CHT.md)
 </details> 
 
 
-<details><summary> 3. Create Bridge Header file, and input #import &lt;WXApi.h&gt; </summary>
+<details><summary> 3. Create Bridge Header file, and input #import &lt;WechatOpenSDK/WXApi.h&gt; </summary>
 <p>
-<img width="580" alt="image" src="https://user-images.githubusercontent.com/1109143/229009112-e5474e69-eef8-43f3-95d1-c6bbf9502ba2.png">
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/e5552acc-b7d2-46e6-a7c4-59b85ac45beb" />
 </p>
 </details> 
 

@@ -4,7 +4,7 @@
 
 ## 目的
 
-- 包装 `WeChatOpenSDK-XCFramework.xcframework` 让其可以简单得用于 `Swift Package Manager`
+- 包装 `WeChatOpenSDK.xcframework` 让其可以简单得用于 `Swift Package Manager`
 - 保持与Cocoapods的版本相同
 
 ## 安装
@@ -25,9 +25,9 @@
 </details> 
 
 
-<details><summary> 3. 创建桥接头文件（Bridge Header）， 并且添加 #import &lt;WXApi.h&gt; </summary>
+<details><summary> 3. 创建桥接头文件（Bridge Header）， 并且添加 #import &lt;WechatOpenSDK/WXApi.h&gt; </summary>
 <p>
-<img width="580" alt="image" src="https://user-images.githubusercontent.com/1109143/229009112-e5474e69-eef8-43f3-95d1-c6bbf9502ba2.png">
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/e5552acc-b7d2-46e6-a7c4-59b85ac45beb" />
 </p>
 </details> 
 
