@@ -2,6 +2,7 @@
 
 
 rm -rf ./Sources/WechatOpenSDK-XCFramework.xcframework
+rm -rf ./Sources/WechatOpenSDK.xcframework
 
 SOURCE=$(pod search --simple WechatOpenSDK-XCFramework | grep Source: | awk -F " " '{print $3}')
 FILE_NAME='xcframework.zip'
@@ -13,7 +14,7 @@ echo "unzip xcframework.zip"
 unzip $FILE_NAME
 
 echo "mv xcframework"
-mv WechatOpenSDK-XCFramework.xcframework ./Sources/
+mv WechatOpenSDK.xcframework ./Sources/
 
 echo "clean unused files"
 rm -rf __MACOSX/
