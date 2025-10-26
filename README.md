@@ -5,7 +5,6 @@ English | [简体中文](README_zh-CHS.md) | [繁体中文](README_zh-CHT.md)
 ## What's this?
 
 - Wrap `WeChatOpenSDK.xcframework` and make it easy to use with `Swift Package Manager`.
-- Mirror and automatically keep the version in sync with CocoaPods.
 
 ## Installation
 ### Swift Package Manager (GUI)
